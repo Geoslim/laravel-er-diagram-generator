@@ -51,5 +51,6 @@
                 "Geoslim\\ErdGenerator\\ErdGeneratorServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
