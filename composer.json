@@ -1,40 +1,41 @@
 {
-    "name": "beyondcode/laravel-er-diagram-generator",
+    "name": "Geoslim/laravel-er-diagram-generator",
     "description": "Generate ER diagrams from your Laravel models.",
     "keywords": [
-        "beyondcode",
+        "Geoslim",
         "laravel-er-diagram-generator"
     ],
-    "homepage": "https://github.com/beyondcode/laravel-er-diagram-generator",
+    "homepage": "https://github.com/Geoslim/laravel-er-diagram-generator",
     "license": "MIT",
     "authors": [
         {
-            "name": "Marcel Pociot",
-            "email": "marcel@beyondco.de",
-            "homepage": "https://beyondcode.de",
+            "name": "Ikponmwosa George Edomwande",
+            "email": "iedomwande@yahoo.com",
+            "homepage": "",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.1|^8.0",
-        "doctrine/dbal": "~2.3|^3.3",
+        "php": "^7.1|^8.3",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "doctrine/dbal": "~2.3|^3.3|^4.0.2",
         "phpdocumentor/graphviz": "^1.0",
         "nikic/php-parser": "^2.0|^3.0|^4.0|^5.0"
     },
     "require-dev": {
         "larapack/dd": "^1.0",
         "orchestra/testbench": "~3.5|~3.6|~3.7|~3.8|^4.0|^7.0|^8.0|^9.0",
-        "phpunit/phpunit": "^7.0| ^8.0|^9.5.10",
+        "phpunit/phpunit": "^7.0| ^8.0|^9.5.10|^10.5",
         "spatie/phpunit-snapshot-assertions": "^1.3|^4.2"
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\ErdGenerator\\": "src"
+            "Geoslim\\ErdGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\ErdGenerator\\Tests\\": "tests"
+            "Geoslim\\ErdGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BeyondCode\\ErdGenerator\\ErdGeneratorServiceProvider"
+                "Geoslim\\ErdGenerator\\ErdGeneratorServiceProvider"
             ]
         }
     }
